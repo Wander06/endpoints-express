@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js",
-    "json": "json-server --watch db.json --port 3000"
+    "dev": "nodemon ./server/server.js",
+    "json": "json-server --watch ./database/db.json --port 3000"
   },
   "keywords": [],
   "author": "",
