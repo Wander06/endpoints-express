@@ -49,6 +49,7 @@ Obs: os dois comandos devem ser executados em dois terminais diferentes ao mesmo
 - Utilize o módulo json-server para criar um banco de dados fake a partir de um arquivo JSON.
 - Utilize o axios para requisitar o banco de dados fake e manipula-lo.
 - Mantenha o código organizado e com boas práticas de programação.
+- Não esqueça de usar o comando npm install para instalar todas as dependencias.
 
 ## Materiais de apoio
 
