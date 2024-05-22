@@ -12,7 +12,7 @@ Você foi contratado para desenvolver uma API para gerenciar produtos. Sua taref
 4. **PUT /produtos/:id**: Atualiza os detalhes de um produto existente com o ID fornecido, utilizando os dados fornecidos no corpo da requisição.
 5. **DELETE /produtos/:id**: Remove o produto com o ID fornecido.
 
-## Aqui está o banco de dados fake:
+## Assim sera banco de dados fake:
 
 ```json
 { 
@@ -33,14 +33,14 @@ Você foi contratado para desenvolver uma API para gerenciar produtos. Sua taref
 ```
 
 # instruções:
-1. Inicie criando uma estrutura básica de um servidor Express.
-2. Utilize o JSON Server para criar um banco de dados fake contendo os produtos fornecidos.
-3. Implemente os endpoints conforme descrito nos requisitos.
-4. Teste cada endpoint utilizando ferramentas como Postman ou curl.
-5. Certifique-se de que a API responde corretamente a diferentes tipos de requisições, como GET, POST, PUT e DELETE.
-6. Lembre-se de tratar possíveis erros, como produtos não encontrados ou dados inválido.
-7. Utilize o comando 'npm run dev' para inicializar o servidor express.
-8. Utilize o comando 'npm run json' para inicializar um servidor do banco de dados fake
+
+1. Implemente os endpoints conforme descrito nos requisitos.
+2. Teste cada endpoint utilizando ferramentas como Postman ou curl.
+3. Certifique-se de que a API responde corretamente a diferentes tipos de requisições, como GET, POST, PUT e DELETE.
+4. Lembre-se de tratar possíveis erros, como produtos não encontrados ou dados inválido.
+5. Não esqueça de usar o comando npm install para instalar todas as dependencias.
+6. Utilize o comando 'npm run dev' para inicializar o servidor express.
+7. Utilize o comando 'npm run json' para inicializar um servidor do banco de dados fake
 
 Obs: os dois comandos devem ser executados em dois terminais diferentes ao mesmo tempo.
 
@@ -49,7 +49,6 @@ Obs: os dois comandos devem ser executados em dois terminais diferentes ao mesmo
 - Utilize o módulo json-server para criar um banco de dados fake a partir de um arquivo JSON.
 - Utilize o axios para requisitar o banco de dados fake e manipula-lo.
 - Mantenha o código organizado e com boas práticas de programação.
-- Não esqueça de usar o comando npm install para instalar todas as dependencias.
 
 ## Materiais de apoio
 
